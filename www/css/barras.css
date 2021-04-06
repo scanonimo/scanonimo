@@ -1,0 +1,14 @@
+.libros {
+  table-layout: fixed;
+  width: 100%;
+}
+.libros td:nth-child(6) input {
+  width: 250px;
+}
+.libros td:nth-child(6) {
+  width: 400px;
+}
+.barras_guardar {
+  font-size: 1.6em;
+  height: 55px;
+}

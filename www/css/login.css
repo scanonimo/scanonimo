@@ -1,0 +1,187 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  padding-top: 0.5em;
+  width: 100%;
+  font-size: 5vw;
+  font-family: sans-serif;
+}
+#boton {
+  text-align: center;
+}
+#boton button {
+  padding: 8px;
+  font-size: 0.5em;
+  font-weight: bold;
+  vertical-align: middle !important;
+}
+#boton button img {
+  width: 3.5em;
+}
+fieldset {
+  margin: 0.3em;
+  padding-top: 0px;
+  max-width: 600px;
+}
+input {
+  font-size: 1.5em;
+  padding: 0.3em 0.6em;
+  width: 90%;
+}
+@media screen and (min-width: 600px) {
+  body {
+     font-size: 40px;
+  }
+  fieldset {
+    margin: auto;
+  }
+  input {
+    padding: 0em;
+    padding-left: 0.3em;
+  }
+}
+p {
+  margin: 0px;
+  margin-top: 0.3em;
+  clear: both;
+}
+legend{
+  font-weight: bold;
+}
+button {
+  font-size: 1em;
+  margin-top: 3%;
+  padding: 2% 7%;
+}
+.error {
+  color: red;
+}
+input.error {
+  color: black;
+}
+input[type=checkbox]
+{
+  /* Double-sized Checkboxes */
+  -ms-transform: scale(2); /* IE */
+  -moz-transform: scale(2); /* FF */
+  -webkit-transform: scale(2); /* Safari and Chrome */
+  -o-transform: scale(2); /* Opera */
+  transform: scale(2);
+  vertical-align: middle;
+  width: auto;
+  margin: 0em 0.2em 0em 0.3em;
+}
+.oculto {
+  display: none;
+}
+#ver_menos, .ver_menos, .ver_mas {
+  white-space: nowrap;
+}
+#cancelar {
+    width: 9em;
+}
+/*.crear_nuevo {
+  width: 60%;
+}
+.entrar {
+  width: 33%;
+}*/
+.sin_def, .cifrado {
+  color: #cccccc !important;
+}
+#cerrar {
+  float: right;
+  height: 3em;
+  margin-top: .7em;
+}
+.botones button {
+    width: 47%;
+}
+.borrar {
+  margin-top: 0;
+  float: right;
+  margin-right: 0.9em;
+  padding: 0px 1em;
+  line-height: 1em;
+}
+.msg_exito {
+  margin-top: 0.5em;
+  color: blue;
+}
+#contra {
+  padding-bottom: 1em;
+}
+#olvido, #contactar, .btlong {
+  width: 95%;
+}
+#boton1, #boton2, .boton99 {
+  width: 95%;
+  margin-top: 0;
+}
+#boton3 {
+  margin-top: 0;
+}
+#logo, .logo {
+/*  width: 1em;*/
+  vertical-align: middle;
+}
+/*
+fieldset {
+  padding-top: 0px;
+  font-weight: bold;
+}
+p {
+  margin: 0px;
+  margin-top: 23px;
+}
+input {
+  font-size: 1vw;
+  padding: 17px 18px;
+}
+label {
+  font-weight: normal;
+}
+#logginform * {
+  font-family: Verdana;
+}
+#logginform label {
+  width: 10em;
+  float: left;
+}
+#logginform label.error {
+  float: none;
+  color: red;
+  padding-left: 0.5em;
+  vertical-align: top;
+}
+#logginform p {
+  clear: both;
+}
+.submit {
+  padding: 2px 24px 5px;
+}
+#logginform em {
+  font-weight: bold;
+  padding-right: 1em;
+  vertical-align: top;
+}
+.error_personalizado {
+  color: red;
+}
+.field_personalizado {
+  margin-top: 20px;
+}
+body {
+  width: 100%;
+  font-size: 5vw;
+  max-width: 790px;
+}
+@media screen and (min-width: 790px) {
+  body {
+     font-size: 40px;
+  }
+}
+*/

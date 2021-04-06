@@ -1,0 +1,25 @@
+.libros td:nth-child(1) {
+	width: 340px;
+}
+.libros td:nth-child(2) {
+	width: 74px;
+	overflow: hidden;
+}
+.libros td:nth-child(3), .libros td:nth-child(5) {
+	text-align: right;
+}
+.espacial td:nth-child(3) {
+  text-align: center;
+}
+.libros td:nth-child(4) {
+	width: 160px;
+	text-align: center;
+}
+.espacial td:nth-child(4) {
+  text-align: right;
+}
+.voltear{
+	transform: rotate(-90deg);
+	transform-origin: right bottom 0;
+	margin-top: -29px;
+}

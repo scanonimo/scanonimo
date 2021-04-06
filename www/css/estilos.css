@@ -1,0 +1,281 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  width: 790px;
+  font-family: sans-serif;
+}
+tr input {
+  line-height: 0px;
+}
+#mostrar input {
+  width: 100%;
+  font-size: 2em;
+  font-weight: bold;
+  padding-bottom: 4px;
+}
+#cerrar {
+  width: 210px;
+}
+.error2 {
+  color: red;
+  font-weight: bold;
+}
+.sin_def, .cifrado {
+  color: #cccccc;
+}
+.mas, .menos {
+  line-height: 0px;
+}
+#cinta {
+  background-color: #99ffff;
+  font-size: 2em;
+  text-align: center;
+  font-weight: bold;
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  border-bottom: 5px solid #00cccc;
+  color: #3b9393;
+}
+.italica, .italica input{
+  font-style: italic;
+}
+img {
+  vertical-align:middle;
+}
+.botones3 {
+  display: inline-block;
+}
+.oculto, .oculto2, .oculto3{
+  display: none;
+}
+.oculto4{
+  display: none !important;
+}
+.libros input {
+  height: 55px;
+  width: 55px;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 2.7em;
+}
+td {
+  vertical-align: middle;
+}
+.donativo_esp{
+  text-align: right;
+  font-size: 1.5em;
+}
+.guardar, .cancelar, .eliminar {
+  font-size: 1.1em !important;
+  width: 80px !important;
+  padding: 0px ! important;
+}
+.dolar{
+  vertical-align: middle;
+}
+.donativo_per {
+  width: 100px ! important;
+  text-align: right ! important;
+  font-size: 1em ! important;
+  height: auto ! important;
+  padding: 6px 1px;
+}
+textarea {
+  resize: none ! important;
+  width: 98%;
+  padding: 12px 2px;
+  font-size: 1em;
+  text-transform: uppercase;
+  font-family: sans-serif;
+}
+.textarea2 {
+  text-align: right;
+}
+.libros .piezas, .libros .piezas_obs,  .libros .obs_eliminado {
+  vertical-align: middle;
+  height: 47px;
+  text-align: center;
+  width: 30px;
+  font-size: 1em;
+  background-color: white;
+  color: black;
+}
+#pasar_a_efectivo {
+  display: block;
+  float: right;
+  font-size: .5em;
+  height: 66px;
+  padding: 0px 18px;
+  font-weight: bold;
+  font-style: inherit;
+}
+.libros {
+  table-layout: fixed;
+  width: 742px;
+}
+.letra {
+  text-align: left;
+  font-size: 3.1em;
+  background-color: #ccccff;
+  font-weight: bold;
+  padding-left: 15px;
+}
+#bottom_tape {
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  background-color: #99ff99;
+  left: 0;
+  right: 0;
+  height: 35px;
+}
+input {
+  font-size: 1em;
+}
+#tags {
+  color: #cccccc;
+  width: 335px;
+}
+.blink {
+  text-align: left;
+  font-size: 1.5em;
+}
+#right_tape {
+  top: -15px;
+  position: fixed;
+  right: 0px;
+  text-align: right;
+  font-size: 2.2em;
+  z-index: 99;
+  overflow-y: hidden;
+  overflow-x: scroll;
+}
+#right_tape2 {
+  top: 0px;
+  position: fixed;
+  right: 0px;
+  text-align: center;
+  font-size: 1.5em;
+  z-index: 99;
+  overflow: auto;
+}
+.letter {
+  border-style: outset;
+  background-color: #ffffcc;
+  padding-top: 5px;
+  width: 44px;
+  padding-top: 21px;
+  padding-bottom: 28px;
+  overflow: auto;
+}
+.col_head {
+  text-align: center;
+  font-weight: bold;
+}
+.oculta {
+  visibility: collapse;
+}
+.ui-autocomplete.ui-widget {
+  font-size: 2em;
+}
+#loading {
+  text-align: center;
+  margin-top: 15px;
+}
+#codigo {
+  width: 100px;
+  color: #cccccc;
+}
+.drawer-content input {
+  height: 55px;
+}
+.drawer-content button {
+  padding: 8px;
+  width: 230px;
+  height: 71px;
+  font-size: 1em;
+  vertical-align: middle !important;
+}
+.drawer-content {
+  font-size: 2em;
+}
+.drawer-content div {
+  margin: 7px 0px;
+}
+.rojo {
+  color: red;
+}
+.error {
+  color: red;
+}
+.tipo {
+  border-style: outset;
+  background-color: #ffffcc;
+  padding-top: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+  height: 38px;
+  display: inline;
+}
+#right_tape div {
+  white-space: nowrap;
+}
+.derecha {
+  text-align: right;
+}
+.centrado {
+  text-align: center;
+}
+#totales {
+  vertical-align: top;
+  display: inline-block;
+  font-size: 0.47em;
+  border-collapse: collapse;
+  line-height: 0.9em;
+  margin: 7px 0px;
+}
+#totales tr {
+
+}
+#totales td {
+  white-space: nowrap;
+  text-align: right;
+  width: 90px;
+}
+#mas_largo {
+  margin-top: -10px;
+  margin-bottom: 0px;
+  display: inline-block;
+}
+#mas_largo div {
+  margin-top: 0px;
+  margin-bottom: 6px;
+}
+#referencia{
+	bottom: 0px;
+	overflow: hidden;
+	position: fixed;
+	width: 100%;
+	z-index: 99; /* make this what you need to */
+  border-color: black;
+}
+.gran_total {
+  border-top-style: solid;
+}
+#cambiar_dinero {
+  width: 140px;
+  text-align: right;
+}
+.tabla_dinero {
+  border-collapse: collapse;
+  text-align: center;
+}
+#cambiar_regalo {
+  text-align: right;
+  width: 140px;
+}
+#pasar_regalo, #guardar, #cerrar {
+  height: 67px;
+}
