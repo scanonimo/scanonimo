@@ -25,7 +25,7 @@
   <fieldset> <legend>Hacer una donación</legend>
 <p>Muchas gracias por tu <strong>inertes</strong> y <strong>generosidad</strong>.</p>
 <p>La cuenta para realizar sus donaciones estan a nombre de <strong>Ariel Del Valle Lozano</strong>, por lo que es recomendable que tenga en cuenta este <strong>nombre</strong> para asegurar que esta depositando a la <strong>cuenta correcta</strong>.</p>
-<p>Favor de realizar sus aportaciones <strong>no mayores</strong> a $ 15,000.00 pesos a la siguiente cuenta de <strong>BanCoppel</strong> desde cualquier tienda <strong>Coppel</strong> o <strong>OXXO</strong> (NOTA: OXXO cobra una comisión de 15 pesos):</p>
+<p>Favor de realizar sus aportaciones <strong>no mayores</strong> a $ 15,000.00 pesos por mes a la siguiente cuenta de <strong>BanCoppel</strong> desde cualquier tienda <strong>Coppel</strong> o <strong>OXXO</strong> (NOTA: OXXO cobra una comisión de 15 pesos):</p>
 <p><strong>No de cuenta:</strong> 10408933370</p>
 <p>También es posible realizar una <strong>transferencia</strong> utilizando la siguiente clave <strong>interbancaria:</strong></p>
 <p><strong>Clave:</strong> 137744104089333700</p>

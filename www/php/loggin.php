@@ -74,6 +74,17 @@ if(!isset($_SESSION))
   }else{
     	include 'var/data_base_info.php';
   }
+  setlocale(LC_MONETARY, $locale);
+  $checar_formato=money_format("$%!i",1000000);
+  if($checar_formato != "$1,000,000.00"){
+?>
+<script type="text/javascript">
+    checar_formato="<?php echo $checar_formato; ?>";
+    local="<?php echo $locale; ?>";
+    alert("ERROR GRAVE:\n\nEl formato regional de moneda establecido por el administrador ("+local+") en el archivo de configuración de este programa (var/data_base_info.php) en este servidor es erróneo.\n\nEl formato recibido fue este “"+checar_formato+"” sin embargo se esperaba este “$1,000,000.00”.\n\nPor favor contacte al administrador del sitio, quien debe cambiar la variable “locale” en el archivo var/data_base_info.php hasta encontrar la configuración correcta, la cual debe separar los decimales con signo de punto y los miles con una coma.\n\nDe lo contrario este programa podría no funcionar correctamente.\n\nAlgunas configuraciones posiblemente correcta son las siguientes:\nen_US.utf8\nes_US.utf8\nes_MX.UTF-8\n\nSin embargo, esto depende totalmente del servidor donde estés alojando este programa, por lo que te recomendamos contactar a tu proveedor para pedir ayuda y encontrar un formato que cumpla con estos requerimientos.");
+</script>
+<?php //php
+  }
 if(!isset($_SESSION['usuario'])){
 	$usuario="";
 	$tipo="-1";
@@ -171,7 +182,7 @@ if($usuario=="" or $tipo!="1"){
   <button id="olvido" type="button" onclick="window.location='recuperar_acceso.php';">¿Olvido su contraseña?</button>
   <button id="contactar" type="button" onclick="window.location='contactanos.php';">Contáctenos</button>
   <button type="button" class="btlong" onclick="window.location='acerca_de.php';">Acerca de nosotros</button>
-  <button type="button" class="btlong" onclick="window.location='acerca_de.php';">Tutorial</button>
+  <button type="button" class="btlong" onclick="window.location='https://youtu.be/TV7PrNwtXis';">Tutorial</button>
   </fieldset>
 </form>
 <script type="text/javascript">
